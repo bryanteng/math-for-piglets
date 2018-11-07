@@ -2,10 +2,10 @@
 
 *Math for Piglets*, a math-learning application with a built-in reward system, directed towards children.
 
-![Screenshot](readmeImg.png)
+![Screenshot](app_demo.png)
 
 ## Application Features
-- User can choose a math operation and solve the given question.
+- User can choose a math operation and solve the given question. 
 
 - User can return to questions answered incorrectly.
 
@@ -20,6 +20,7 @@
 - Rails API utilizing Active Model Serializers
 - Sqlite3 Database using ActiveRecord
 - Math.js library
+- Postgres
 
 ## Back-End Repository
 https://github.com/bryanteng/math_for_piglets_backend
@@ -32,8 +33,9 @@ https://github.com/bryanteng/math_for_piglets_backend
 5. Run `rails s -p 3000`
 
 ## Client-Side Install Instructions
-1. Run `npm install`
-2. Run `npm start`
+1. run `cd math-front-end`
+2. Run `npm install`
+3. Run `npm start`
 
 ## Contributing
 [Contributing Guide](./CONTRIBUTING.md)
