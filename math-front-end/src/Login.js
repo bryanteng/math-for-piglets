@@ -19,7 +19,7 @@ export default class Login extends Component{
             <br/>
 
           <label> Password: </label>
-            <input type="text" /> <br/>
+            <input type="password" /> <br/>
             <br/>
             <div className="ui two buttons">
               <div className="ui teal button" onClick={(event)=>{this.props.loginButton(event)}}>Login</div>
